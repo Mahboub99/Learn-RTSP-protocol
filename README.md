@@ -8,7 +8,7 @@
 
 ## How to Run
 
-> after cloning the rebo run this commands:
+> after cloning the rebo run these commands:
 
 to install node modules
 
