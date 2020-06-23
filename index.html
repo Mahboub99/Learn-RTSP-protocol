@@ -3,26 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <title>Learn RTSP</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Freckle Face"
+    />
   </head>
   <html>
     <body>
-      <canvas id="canvas"></canvas>
+      <h1>Live Stream Player</h1>
+      <canvas id="canvas" class="camera"></canvas>
       <br />
-
-      <button onclick="pause()">pause</button>
-      <button onclick="play()">play</button>
+      <div>
+        <i
+          onclick="pause()"
+          class="fas fa-pause-circle fa-3x player-settings"
+        ></i>
+        <i
+          onclick="play()"
+          class="fas fa-play-circle fa-3x player-settings"
+        ></i>
+        <i
+          onclick="volumeUp()"
+          class="fas fa-volume-up fa-3x player-settings"
+        ></i>
+        <i
+          onclick="volumeMute()"
+          class="fas fa-volume-mute fa-3x player-settings"
+        ></i>
+      </div>
       <script type="text/javascript" src="jsmpeg.min.js"></script>
-      <script type="text/javascript">
-        player = new JSMpeg.Player("ws://localhost:9999", {
-          canvas: document.getElementById("canvas") // Canvas should be a canvas DOM element
-        });
-        function pause() {
-          player.pause();
-        }
-        function play() {
-          player.play();
-        }
-      </script>
+      <script type="text/javascript" src="index.js"></script>
     </body>
   </html>
 </html>
