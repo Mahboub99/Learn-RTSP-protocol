@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  margin: auto;
+  color: #b6eb7a;
+  background-color: #f7f7ee;
+  font-family: "Freckle Face";
+}
+.camera {
+  width: 800px;
+  height: 550px;
+  border-radius: 28px;
+}
+.player-settings {
+  transition: 0.5s;
+  margin: 10px;
+}
+.player-settings:hover {
+  transform: scale(1.2);
+}
