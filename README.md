@@ -40,4 +40,4 @@ replace the `streamUrl` with your demo `rtsp` url or with your camera `rtsp` url
 
 ## Screen Shoots
 
-<img width = "600px"  src = "./images/Demo1.png" style="margin-top:20px; text-align:center;" />
+![Demo1](https://user-images.githubusercontent.com/43186742/85395640-bceed000-b550-11ea-981c-83f573ad3901.PNG)
