@@ -8,6 +8,6 @@ stream = new Stream({
   ffmpegOptions: {
     // options ffmpeg flags
     "-stats": "", // an option with no neccessary value uses a blank string
-    "-r": 100 // options with required values specify the value after the key
+    "-r": 200 // options with required values specify the value after the key
   }
 });
