@@ -19,7 +19,7 @@ $ npm install
 to run `RTSP` server
 
 ```CLI
-$ node app.js
+$ npm strat
 ```
 
 then open `index.html`
@@ -34,4 +34,10 @@ then open `index.html`
 streamUrl: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_175k.mov";
 ```
 
-<img src = "./images/Demo1.png" style="margin-top:20px; text-align:center;" />
+replace the `streamUrl` with your demo `rtsp` url or with your camera `rtsp` url
+
+<hr/>
+
+## Screen Shoots
+
+<img width = "600px"  src = "./images/Demo1.png" style="margin-top:20px; text-align:center;" />
