@@ -1,4 +1,4 @@
-# Learn-RTSP-protocol
+<h1 style="text-align:center"> Learn-RTSP-protocol </h1>
 
 ## Real Time Streaming Protocol (RTSP)
 
@@ -25,4 +25,13 @@ $ node app.js
 then open `index.html`
 
 <hr/>
+
+## To Run your own stream
+
+> in app.js file
+
+```javascript
+streamUrl: "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_175k.mov";
+```
+
 <img src = "./images/Demo1.png" style="margin-top:20px; text-align:center;" />
