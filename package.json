@@ -1,0 +1,24 @@
+{
+  "name": "learn-rtsp-protocol",
+  "version": "1.0.0",
+  "description": "Real Time Streaming Protocol (RTSP) is an application-level network communication system that transfers real-time data from multimedia to an endpoint device by communicating directly with the server streaming the data.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mahboub99/Learn-RTSP-protocol.git"
+  },
+  "author": "ahmed mahboub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mahboub99/Learn-RTSP-protocol/issues"
+  },
+  "homepage": "https://github.com/Mahboub99/Learn-RTSP-protocol#readme",
+  "dependencies": {
+    "ffmpeg": "0.0.4",
+    "node-onvif": "^0.1.7",
+    "node-rtsp-stream": "0.0.9"
+  }
+}
